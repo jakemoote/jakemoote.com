@@ -40,9 +40,9 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#">About Me</a></li>
+							<li><a href="#one" class="scrolly">About Me</a></li>
 							<li><a href="uploads/Moote_Jake_resume_developer_Dec_2017.pdf" target="_blank">Resume</a></li>
-							<li><a href="#" class="button special">Contact</a></li>
+							<li><a href="#five" class="button special scrolly">Contact</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -134,7 +134,7 @@
 				</section>
 
 			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up" style="min-height: 100vh;background-position: center 0px; background-image: url('images/pic04.jpg_');background-attachment: fixed;background-position: center center;background-size: cover;">
+				<section id="four" class="wrapper style1 special fade-up" style="min-height: 100vh;background-position: center 0px; /*background-image: url('images/pic04.jpg');*/background-attachment: fixed;background-position: center center;background-size: cover;">
 					<div class="container">
 						<header class="major">
 							<h2>Skills</h2>
@@ -143,34 +143,37 @@
 						<div class="box alt">
 							<div class="row uniform">
 								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-area-chart"></span>
+									<span class="icon alt major fa-flask"></span>
 									<h3>Web Development</h3>
 									<p>PHP, JavaScript, MySQL</p>
 								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-comment"></span>
-									<h3>Technical Support</h3>
-									<p>Provided in-person &amp; e-support - ZenDesk</p>
-								</section>
-								<section class="4u$ 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-flask"></span>
-									<h3>Server Setup</h3>
-									<p>Linux, Apache, nginx, terminal</p>
-								</section>
-								<section class="4u 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-paper-plane"></span>
-									<h3>Network Administration</h3>
-									<p>WiFi &amp; Router installation and setup</p>
-								</section>
 								<section class="4u 6u(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-file"></span>
-									<h3>Collaboration</h3>
-									<p>AGILE/SKRUM, work in teams, organize tasks</p>
+									<span class="icon alt major fa-server"></span>
+									<h3>System/Server Administration</h3>
+									<p>Linux, Apache, nginx, terminal, bash</p>
 								</section>
 								<section class="4u$ 6u$(medium) 12u$(xsmall)">
-									<span class="icon alt major fa-lock"></span>
-									<h3>Massa arcu accumsan</h3>
-									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+									<span class="icon alt major fa-area-chart"></span>
+									<h3>Data Reporting & Analytics</h3>
+									<p>Create SQL queries to pull data for analyzation</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-comment"></span>
+									<h3>Technical Support</h3>
+									<p>
+										Provide in-person &amp; e-support<br>
+										Ticketing systems<br>ZenDesk, Trello, JIRA, etc
+									</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-wifi"></span>
+									<h3>Networking</h3>
+									<p>WiFi &amp; Router installation and setup</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-users"></span>
+									<h3>Collaboration</h3>
+									<p>AGILE/SKRUM, work in teams, organize tasks</p>
 								</section>
 							</div>
 						</div>
@@ -186,13 +189,15 @@
 				<section id="five" class="wrapper style2 special fade" style="min-height: 100vh;background-position: center 0px; background-image: url('images/pic04.jpg');background-attachment: fixed;background-position: center center;background-size: cover;">
 					<div class="container">
 						<header>
-							<h2>Magna faucibus lorem diam</h2>
-							<p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+							<h2>Contact</h2>
+							<p>Interested in technology? Looking to hire? Just want to talk?<br>Send me an email below!</p>
 						</header>
 						<form method="post" action="#" class="container 50%">
 							<div class="row uniform 50%">
-								<div class="8u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address"></div>
-								<div class="4u$ 12u$(xsmall)"><input type="submit" value="Get Started" class="fit special"></div>
+								<div class="12u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Your Email Address"></div>
+								<div class="12u 12u$(xsmall)"><input type="text" name="email_subject" id="email_subject" placeholder="Subject"></div>
+                                <div class="12u 12u$(xsmall)"><textarea name="email_body" id="email_body" placeholder="Your Message Here"></textarea></div>
+								<div class="12u 12u$(xsmall)"><input type="submit" value="Contact" class="fit special"></div>
 							</div>
 						</form>
 					</div>
